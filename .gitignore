@@ -1,0 +1,10 @@
+.metadata/
+.metadata/.log
+
+*.index
+
+*.txt
+
+*.xml
+
+*.class

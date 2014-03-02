@@ -9,10 +9,17 @@ import android.view.View;
 public class MainActivity extends Activity {
 	public final static String EXTRA_MESSAGE = "com.example.myfirstapp.MESSAGE";
 	
+	
+	
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        
+        // Originally, the "Hello World" example took in the
+        // "R.layout.activity_main.xml"-thing as a parameter for
+        // setContentView() to draw objects on the screen,
+        // but for testing stuff, I made the parameter something else 
+        setContentView(new BubbleSurfaceView(this));
     }
 
 
