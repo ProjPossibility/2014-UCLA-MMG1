@@ -1,8 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">SpellWithFriends</string>
+    <string name="app_name">Spell With Friends</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_display_message">My Message</string>
+    
+    <string name="new_game">New Game</string>
+    <string name="how_to_play">How To Play</string>
+    <string name="settings">Settings</string>
+    <string name="credits">Credits</string>
+    
+    <string name="title_activity_display_credits">Credits</string>
+    <string name="game_credits">Jason Badua\nNicandro Vergara\nBrandon Ly\nWilliam Chen</string>
+    <string name="jason_badua">Jason Badua</string>
+    <string name="nicandro_vergara">Nicandro Vergara</string>
+    <string name="brandon_ly">Brandon Ly</string>
+    <string name="william_chen">William Chen</string>
     <string name="hello_world">Hello world!</string>
 
 </resources>

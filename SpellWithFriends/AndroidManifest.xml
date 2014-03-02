@@ -22,6 +22,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.example.spellwithfriends.DisplayMessageActivity"
+            android:label="@string/title_activity_display_message"
+            android:parentActivityName="com.example.spellwithfriends.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.spellwithfriends.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.spellwithfriends.DisplayCredits"
+            android:label="@string/title_activity_display_credits"
+            android:parentActivityName="com.example.spellwithfriends.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.spellwithfriends.MainActivity" />
+        </activity>
     </application>
 
 </manifest>
